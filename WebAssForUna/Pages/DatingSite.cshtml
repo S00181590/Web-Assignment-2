@@ -1,0 +1,97 @@
+﻿@page
+@model WebAssForUna.Pages.sampleModel
+@{
+    Layout = _Pages__layout;
+}
+
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dating Site</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1> Welcome to my dating Site </h1>
+    <h1>Please Register</h1>
+
+    <form method="post">
+
+        <label asp-for=Customer.FirstName>FirstName:</label>
+        <input asp-for=Customer.FirstName  />
+
+        <label asp-for=Customer.Surname>Surname</label>
+        <input asp-for=Customer.Surname />
+        <span asp-validation-for="Customer.Surname"></span>
+
+        <label asp-for="Customer.PPSN">PPSN</label>
+        <input asp-for="Customer.PPSN" required />
+
+        <label asp-for="Customer.DOB">Date of Birth:</label>
+        <input asp-for="Customer.DOB" required />
+
+        <label asp-for="Customer.Gender">Gender</label>
+
+        <input type="radio" asp-for="Customer.Gender" value="Male" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" asp-for="Customer.Gender" value="Female" id="female" />
+        <label for="female">Female</label>
+
+        <label asp-for="Customer.height">Your Height:</label>
+        <input asp-for="Customer.height" />
+
+        <label asp-for="Customer.phone">Phone Number:</label>
+        <input asp-for="Customer.phone" />
+
+        <label asp-for="Customer.mail">E-mail Address:</label>
+        <input asp-for="Customer.mail">
+
+        <label asp-for="Customer.relationship">Relationship Status:</label>
+        <select asp-for="Customer.relationship" required>
+            <option value="Never Married">Never Married</option>
+            <option value="Widowed">Widowed</option>
+            <option value="Divorced">Divorced</option>
+            <option value="Separated">Separated</option>
+        </select>
+
+
+        @for (int i = 0; i <= Model.Customer.inter.Length - 1; i++)
+        {
+            <label asp-for=Customer.inter[i]>@Model.interests[i]</label>
+            <input type="checkbox" asp-for=Customer.inter[i] />
+        }
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>@Model.Namedisp</h1>
+    <h1>@Model.ppsndisp</h1>
+    <h1>@Model.datedisp</h1>
+    <h1>@Model.genddisp</h1>
+    <h1>@Model.heightdisp</h1>
+    <h1>@Model.maildisp</h1>
+    <h1>@Model.numdisp</h1>
+    <h1>@Model.reldisp</h1>
+    <h1>Interests:</h1>
+    @for (int i = 0; i <= Model.Customer.inter.Length - 1; i++)
+    {
+        if (@Model.Customer.inter[i] == true)
+        {
+
+            <h1>@Model.interests[i]</h1>
+        }
+
+       @*<h1>@Model.mess</h1>*@
+    }
+   
+
+
+
+</body>
+</html>

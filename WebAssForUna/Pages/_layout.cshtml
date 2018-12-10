@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["ValidationJordan"] - DatingSite</title>
+
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+    @RenderBody()
+
+
+    <footer>Jordan Forde ©</footer>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+
+    @RenderSection("Scripts", required: false)
+
+
+</body>
+</html>

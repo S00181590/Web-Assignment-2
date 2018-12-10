@@ -1,0 +1,11 @@
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.deps.json
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.runtimeconfig.json
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.runtimeconfig.dev.json
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.dll
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.pdb
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.csprojAssemblyReference.cache
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.csproj.CoreCompileInputs.cache
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.AssemblyInfoInputs.cache
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.AssemblyInfo.cs
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.dll
+H:\SecondYear\WebProg1\Assignmnt 2\2018-web-programming-1-S00181590\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.pdb

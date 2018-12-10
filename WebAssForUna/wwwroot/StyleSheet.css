@@ -1,0 +1,52 @@
+﻿body {
+    align-content: center;
+    background-image: url(https://image.freepik.com/free-vector/seamless-random-heart-pattern-background_1164-1658.jpg);
+}
+
+form {
+    align-content: center;
+    max-width: 60%;
+    background-color: rgba(255,255,204,0.3);
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input {
+    display: block;
+    max-width: 70%;
+    margin-right: 30%;
+}
+    input[type="radio"] {
+       
+        display:inline;
+        margin-right:0px;
+    }
+label[for="male"] {
+    display: inline;
+    margin-right: 20px;
+}
+label[for="female"] {
+    display: inline;
+    margin-right: 20px;
+}
+select {
+    display: block;
+    max-width: 70%;
+    margin-right: 30%;
+}
+label {
+    width: 100px;
+    display: block;
+    max-width: 70%;
+    margin-right: 30%;
+    color: antiquewhite;
+}
+h1 {
+    color:antiquewhite;
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
